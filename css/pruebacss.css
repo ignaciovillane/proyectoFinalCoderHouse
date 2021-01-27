@@ -1,0 +1,199 @@
+body {
+  background-image: url(man-4658042_1280.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden; }
+
+h1 {
+  color: #cd5840;
+  font-family: Copperplate Gothic Light;
+  font-size: 3rem; }
+
+section p {
+  color: #0404B4;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white), url(http://foo.com/image.jpg);
+  font-family: cursive;
+  font-size: 1.5rem; }
+
+nav {
+  color: #2EFEF7;
+  font-family: Courier; }
+  nav li {
+    display: inline;
+    width: 10%;
+    position: relative;
+    font-size: 25px;
+    color: black;
+    bottom: 280px;
+    /*left: 860px;*/
+    left: 750px; }
+
+/*main section p
+{
+	color: red;
+}*/
+.colorRojo {
+  color: red;
+  font-family: cursive;
+  font-size: 1.5rem; }
+
+.dieta-titulo {
+  color: #01A9DB;
+  font-family: Roboto; }
+
+.texto__dieta {
+  color: #6A0888;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white), url(http://foo.com/image.jpg);
+  font-family: Helvetica;
+  font-size: 2rem;
+  border-top: solid 3px yellow;
+  border-right: solid 3px yellow;
+  border-left: solid 3px yellow;
+  border-bottom: solid 3px yellow;
+  animation-duration: 2.5s;
+  animation-name: dieta; }
+
+.contacto--horario {
+  color: #7B174F;
+  font-size: 2rem;
+  animation-duration: 2s;
+  animation-name: horario; }
+
+.grilla__Horarios {
+  color: red;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+  grid-row-gap: 32px;
+  position: relative;
+  left: 490px;
+  font-size: 3rem;
+  animation-duration: 4s;
+  animation-name: grillaHorario; }
+
+footer {
+  color: #cd5840;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white), url(http://foo.com/image.jpg);
+  font-family: Copperplate Gothic Light;
+  flex: 1;
+  padding: 1rem;
+  margin: 1px; }
+  footer p {
+    text-align: center; }
+
+table {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white), url(http://foo.com/image.jpg);
+  padding: 10px 3% 20px;
+  border-top: solid 3px black;
+  border-right: solid 3px black;
+  border-left: solid 3px black;
+  border-bottom: solid 3px black; }
+  table th {
+    color: #0F54A7; }
+
+.titulo--mover {
+  position: relative;
+  bottom: 130px;
+  left: 255px; }
+
+.bordes-index {
+  border-top: double 3px #0000FF;
+  border-right: double 3px #0000FF;
+  border-left: double 3px #0000FF;
+  border-bottom: double 3px #0000FF;
+  display: flex;
+  height: 180px;
+  flex-direction: column;
+  padding: 1em;
+  animation-duration: 2s;
+  animation-name: homeTexto; }
+
+#flexBox {
+  display: flex;
+  flex: 1;
+  margin-top: 20px; }
+
+article {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white), url(http://foo.com/image.jpg);
+  flex: 1;
+  padding: 1rem;
+  margin: 1px; }
+  article border {
+    top: solid 3px black;
+    right: solid 3px black;
+    left: solid 3px black;
+    bottom: solid 3px black; }
+
+article {
+  color: #0404B4;
+  font-family: cursive;
+  font-size: 1.5rem; }
+
+.seccionHome {
+  color: black;
+  font-family: Helvetica;
+  font-size: 2rem; }
+
+.grillaRutinas {
+  display: grid;
+  grid-column-gap: 40px;
+  grid-template-columns: repeat(5, 1fr);
+  font-family: Book Antiqua;
+  color: #155606;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white), url(http://foo.com/image.jpg); }
+
+section p {
+  text-align: center; }
+
+p {
+  text-align: right; }
+
+article p {
+  text-align: left; }
+
+.perspectiva {
+  transform: skew(1deg, 2deg); }
+
+@keyframes horario {
+  5% {
+    opacity: 0; }
+  100% {
+    opacity: 2; } }
+
+@keyframes grillaHorario {
+  5% {
+    opacity: 0; }
+  100% {
+    opacity: 2; } }
+
+@keyframes homeTexto {
+  5% {
+    opacity: 0; }
+  100% {
+    opacity: 2; } }
+
+section ul nav > *:hover,
+section .acciones a:hover {
+  background-color: #00FF00; }
+
+@keyframes dieta {
+  5% {
+    opacity: 0; }
+  100% {
+    opacity: 2; } }
+
+.telefono--contacto {
+  color: #FF4000;
+  font-size: 2rem;
+  font-family: cursive; }
+
+td {
+  color: #B40431;
+  font-size: 1.2rem;
+  font-family: Verdana; }
+
+.dudas {
+  color: #868A08;
+  font-size: 2rem;
+  font-family: cursive; }

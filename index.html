@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mundo Fit</title>
+		<meta name="description" content="Este es el sitio web de mundo fit donde encontrarás rutinas, dietas y mucho más">
+   	    <meta name="keywords"  content="RUTINAS, DIETAS, GYM">
+		<link rel="stylesheet" type="text/css" href="js/bootstrap.js">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!--	<link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+       <link rel="stylesheet"  href="css/pruebacss.css">
+		<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .row {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    width: 100%;
+  }
+}
+</style>
+	</head>
+<body>
+	<header>
+		<img src="media\logo.jpg" alt="Logo">
+		<div>
+			<h1 class="titulo--mover">Mundo Fit</h1>
+		</div>
+		
+	</header>
+	<main>
+    <div class="container">
+		 <ul class="nav nav-tabs nav-justified bg-dark">
+			<li class="nav-item">
+		  	<a class="nav-link" href="index.html">Inicio</a>
+			</li>
+			<li class="nav-item">
+		  	<a class="nav-link" href="rutinas.html">Rutinas</a>
+			</li>
+			<li class="nav-item">
+		  	<a class="nav-link" href="dietas.html">Dietas</a>
+			</li>
+			<li class="nav-item">
+		  	<a class="nav-link" href="contacto.html">Contacto</a>
+			</li>
+			<li class="nav-item">
+  	        <a class="nav-link" href="galeria.html">Galeria</a>
+	       </li>
+	      <div class="dropdown">
+		    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+		  ¿Querés ser parte de nuestro equipo de trabajo?
+			</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#" data-toggle="modal" data-target="#response">Completa el formulario</a>
+				 </div>
+					<div class="modal" id="response">
+					<div class="modal-dialog">
+				 <div class="modal-content">
+				 <div class="modal-header">
+				 <h5 class="modal-title"></h5>
+				<button class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+				 <div class="list-group">
+				  <div class="d-flex w-100 justify-content-between">
+					<div class="container">
+						 <form action="#">
+							<div class="form-group">
+							 <div>
+							  <label for="nombrecompleto">Nombre y Apellido</label>
+								 <input placeholder="Nombre completo" id="nombrecompleto" name="nombrecompleto" type="text" required>
+							 </div>
+								<div>
+									<label for="telefono">Telefono</label>
+									  <input placeholder="sin 0 y sin el 15" id="telefono" name="telefono" type="number" required>
+								</div>
+									<div>	
+									<label for="email">Email</label>
+									<input name="email" id="email" type="email" placeholder="ejemplo@mail.com" required>
+									</div>		
+												  
+						  </form>
+								</div>
+									Adjunta tu cv
+									<input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+									<input type="file" />
+
+								     </div>
+								 </div>
+								      <div class="modal-footer">
+								        <button class="btn btn-primary" data-dismiss="modal">Enviar</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+						</div>
+
+		  </ul>
+    </div>
+		<hr>
+		<div id="flexBox" class="container">
+		<div class="row">
+        <section>
+			<p class="bordes-index"> Sabemos que la salud fisica es muy importante ,por eso brindamos el mejor servicio en ejercitación muscular, nos especializamos en planes para lograr ganancia muscular , realizando las mejores rutinas y las dietas mas equilibradas y completas que hay.</p>
+		</section>
+		<article class="seccionHome">
+			Uníte al mundo de la trasformación física y se parte de nuestra familia
+			<img src="media\entrenando.jpg" class="img-thumbnail"  alt="personasEntrenando">
+		</article>
+		</div>
+		</div>
+ </main>
+	<hr>
+	<footer><p  class="lead">Mundo Fit marca registrada
+		<p  class="lead"><b>Correo electronico:</b><a href="Contacto">mundofit@email.com</p></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
