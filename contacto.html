@@ -8,127 +8,85 @@
 		<meta name="keywords"  content="INSTAGRAM,FACEBOOK">
 		<link rel="stylesheet" type="text/css" href="js/bootstrap.js">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!--link iconos redes sociales -->
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon"  href="media/logo.ico">
 		<!--	<link rel="stylesheet" type="text/css" href="css/styles.css"> -->
        <link rel="stylesheet"  href="css/pruebacss.css">
 	</head> 
 <body>
 	<header>
 		<img src="media\logo.jpg" alt="Logo">
-		<div>
-			<h1 class="titulo--mover">Mundo Fit</h1>
-		</div>
 		
+	<nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">
+            <span class="text-uppercase font-weight-bold">Mundo Fit</span>
+    </a>
+
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href="index.html" class="nav-link">Inicio <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a href="rutinas.html" class="nav-link">Rutinas</a></li>
+        <li class="nav-item"><a href="dietas.html" class="nav-link">Dietas</a></li>
+        <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+        <li class="nav-item"><a href="galeria.html" class="nav-link">Galeria</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 	</header>
 	<main>
-		<div class="container">
- <ul class="nav nav-tabs nav-justified bg-dark">
-	<li class="nav-item">
-  	<a class="nav-link" href="index.html">Inicio</a>
-	</li>
-	<li class="nav-item">
-  	<a class="nav-link" href="rutinas.html">Rutinas</a>
-	</li>
-	<li class="nav-item">
-  	<a class="nav-link" href="dietas.html">Dietas</a>
-	</li>
-	<li class="nav-item">
-  	<a class="nav-link" href="contacto.html">Contacto</a>
-	</li>
-	<li class="nav-item">
-  	<a class="nav-link" href="galeria.html">Galeria</a>
-	</li>
-	<div class="dropdown">
-		    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-		  ¿Querés ser parte de nuestro equipo de trabajo?
-			</button>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="#" data-toggle="modal" data-target="#response">Completa el formulario</a>
-				 </div>
-					<div class="modal" id="response">
-					<div class="modal-dialog">
-				 <div class="modal-content">
-				 <div class="modal-header">
-				 <h5 class="modal-title"></h5>
-				<button class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<div class="modal-body">
-				 <div class="list-group">
-				  <div class="d-flex w-100 justify-content-between">
-					<div class="container">
-						 <form action="#">
-							<div class="form-group">
-							 <div>
-							  <label for="nombrecompleto">Nombre y Apellido</label>
-								 <input placeholder="Nombre completo" id="nombrecompleto" name="nombrecompleto" type="text" required>
-							 </div>
-								<div>
-									<label for="telefono">Telefono</label>
-									  <input placeholder="sin 0 y sin el 15" id="telefono" name="telefono" type="number" required>
-								</div>
-									<div>	
-									<label for="email">Email</label>
-									<input name="email" id="email" type="email" placeholder="ejemplo@mail.com" required>
-									</div>		
-												  
-						  </form>
-								</div>
-									Adjunta tu cv
-									<input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
-									<input type="file" />
+		<h1 class="centrar--titulos">Nuestras vías de contacto</h1>
 
-								     </div>
-								 </div>
-								      <div class="modal-footer">
-								        <button class="btn btn-primary" data-dismiss="modal">Enviar</button>
-								      </div>
-								    </div>
-								  </div>
-								</div>
-						</div>
-  </ul>
-    </div>
-		<hr>
-		<p class="telefono--contacto"><b>Telefono:</b>5494349856</p>
-		<h1>Contacto 💪</h1>
-		<div id="flexBox">
-		<form action="" method="POST">
-			<div>
-                <label for="nombrecompleto">Nombres y Apellidos</label>
-                <input placeholder="Nombre completo" id="nombrecompleto" name="nombrecompleto" type="text" required>
+        	<div class="container contact-form">
+            <div class="contact-image">
+                <img src="media/logo.jpg" alt="Logo"/>
             </div>
-            <div>
-                <label for="telefono">Numero de telefono</label>
-                <input placeholder="sin 0 y sin el 15" id="telefono" name="telefono" type="number" required>
-            </div>
-            <div>	
-                <label for="email">Correo electronico</label>
-                <input name="email" id="email" type="email" placeholder="ejemplo@mail.com" required>
-            </div>
-            <div>
-            	<h3 class="dudas">Dejanos tus dudas</h3>
-            	<textarea rows="20" cols="49"></textarea>
-            </div>
-         
-           <br>
-            <button type="submit">
-                Enviar ✉
-            </button>        
-        </form>
-        <article>
-        	Nuestro Facebook
-        	<p>
-        		<img src="media\Facebook-logo.png" alt="logoFacebook"  class="perspectiva">
-        		<p>Mundo Fit</p>
-        	</p>
-        </article>
-        <article>
-        Nuestro Instagram
-          <p>
-          	<img src="media\logoInstagram.jpeg" alt="instagramLogo"  class="perspectiva">
-          	<p>@mundoFit</p>
-          </p>
-        </article>
-        </div>
+            <form method="post">
+                <h3>Dejanos tus dudas</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Nombres y Apelidos" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Correo eléctronico" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Número de teléfono" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Enviar" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Tu mensaje" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+		   </div>
+         <!--Iconos redes -->
+			        
+            <h3 class="contacto--horario">Buscanos en todas nuestras redes como Mundo Fit</h3>
+			<div class="btn__container">
+			 <a href="#" class="btn">
+			 <i class="fa fa-instagram"></i>
+			 <span>Instagram</span>
+			 </a>
+			 <a href="#" class="btn-f">
+			 <i class="fa fa-facebook"></i>
+			 <span>Facebook</span>
+			 </a>
+			 <a href="#" class="btn-y">
+			 <i class="fa fa-youtube"></i>
+			 <span>Youtube</span>
+			 </a></div>
+   
 		<hr>
 		    <h3 class="contacto--horario">Nuestros horarios</h3>
 				<ul class="grilla__Horarios">
@@ -137,10 +95,93 @@
 						<li>Feriados de 8:00 a 13:00 hs.</li>		
 				</ul>
 			
+		
 	</main>
 	<hr>
-	<footer><p  class="lead">Mundo Fit marca registrada
-		<p  class="lead"><b>Correo electronico:</b><a href="Contacto">mundofit@email.com</p></a>
+
+     <footer class="kilimanjaro_area">
+        
+        <div class="foo_top_header_one section_padding_100_70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="kilimanjaro_part">
+                            <h5>Sobre nosotros</h5>
+                            <p>Somos mundo fit , el mejor lugar donde podrás hacer relidad tu sueño de un cambio físico. </p>
+                            <p>Contamos con los mejores profesionales del medio, y llevamos más de 10 años ayudando a la gente con las mejores dietas y rutinas para que logren sus objetivos.</p>
+                        </div>
+                        <div class="kilimanjaro_part m-top-15">
+                            <h5>Links a nuestras redes</h5>
+                            <ul class="kilimanjaro_social_links">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook: Mundo Fit</a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram: mundoFit</a></li>
+                                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube: Mundo Fit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="kilimanjaro_part">
+                            <h5>Etiquetas</h5>
+                            <ul class=" kilimanjaro_widget">
+                                <li><a href="#">Gym</a></li>
+                                <li><a href="#">Rutinas</a></li>
+                                <li><a href="#">Dietas</a></li>
+                               
+                            </ul>
+                        </div>
+
+                        <div class="kilimanjaro_part m-top-15">
+                            <h5>Links importantes</h5>
+                            <ul class="kilimanjaro_links">
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Empleos</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sucursales</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Ayuda</a></li>
+                       		</ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="kilimanjaro_part">
+                            <h5>Blog</h5>
+                            <div class="kilimanjaro_blog_area">
+                                <div class="kilimanjaro_thumb">
+								<img class="img-fluid" src="media/fitness-3167418_1280.jpg" alt="blog">
+
+                                </div>
+                                <a href="#">Mejores dietas para ganar masa muscular este 2021</a>
+                                <p class="kilimanjaro_date">14 Febrero 2021</p>
+                                <p>Encontrá en está nota las mejores dietas para lograr tu meta de cambiar tu cuerpo este 2021</p>
+                            </div>
+                           
+                
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="kilimanjaro_part">
+                            <h5>Contacto  </h5>
+                            <div class="kilimanjaro_single_contact_info">
+                                <h5>Teléfono:</h5>
+                                <p>5494349856</p>
+                            </div>
+                            <div class="kilimanjaro_single_contact_info">
+                                <h5>Email:</h5>
+                                <p>mundofit@gmail.com</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class=" kilimanjaro_bottom_header_one section_padding_50 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>© Mundo Fit todos los derechos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
