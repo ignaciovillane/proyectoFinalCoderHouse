@@ -4,6 +4,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden; }
+  @media screen and (max-width: 540px) {
+    body {
+      width: 100%;
+      overflow-x: hidden; } }
+
+html {
+  overflow-x: hidden; }
 
 h1 {
   color: #044463;
@@ -18,6 +25,9 @@ h1 {
   animation-name: horario;
   text-align: center;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white), url(http://foo.com/image.jpg); }
+  @media screen and (max-width: 540px) {
+    .contacto--horario {
+      font-size: 1rem; } }
 
 .grilla__Horarios {
   color: white;
@@ -30,6 +40,9 @@ h1 {
   font-size: 2rem;
   animation-duration: 8s;
   animation-name: grillaHorario; }
+  @media screen and (max-width: 540px) {
+    .grilla__Horarios {
+      font-size: 1rem; } }
 
 .grillaRutinas {
   font-family: Book Antiqua;
@@ -43,8 +56,16 @@ h1 {
 .grillaRutinas li {
   text-align: center;
   list-style-type: none;
-  padding: 5px;
+  padding: 25px; }
+  @media screen and (max-width: 540px) {
+    .grillaRutinas li {
+      padding: 5px; } }
+
+ul li h3 {
   width: 100%; }
+  @media screen and (max-width: 540px) {
+    ul li h3 {
+      font-size: 12px; } }
 
 @keyframes horario {
   5% {
@@ -83,6 +104,9 @@ h1 {
   font-size: 16px;
   font-weight: 300;
   text-align: center; }
+  @media screen and (max-width: 540px) {
+    .cardDieta .card p {
+      font-size: 13px; } }
 
 .card {
   width: 330px;
@@ -512,6 +536,9 @@ th {
 /*centrar titulos*/
 .centrar--titulos {
   text-align: center; }
+  @media screen and (max-width: 540px) {
+    .centrar--titulos {
+      font-size: 20px; } }
 
 /*carousel responsive rutinas*/
 .carousel-inner video {

@@ -10,8 +10,15 @@ body{
     	background-attachment: fixed;
 		background-size: cover; 
 		overflow-x: hidden; 
+		   @media screen and (max-width: 540px){
+			width: 100%;
+			overflow-x:hidden;
+	}
 }
-
+html
+{
+	overflow-x:hidden;
+}
 h1{
 	color: $colorTitulos;
 	background-color: white;
@@ -30,6 +37,9 @@ h1{
     animation-name: horario;
     text-align: center;
     background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(http://foo.com/image.jpg);
+    @media screen and (max-width: 540px){
+	font-size:1rem;
+	}
 }
 
 .grilla__Horarios
@@ -43,6 +53,9 @@ h1{
  	font-size: 2rem;
  	animation-duration: 8s;
     animation-name: grillaHorario;
+    @media screen and (max-width: 540px){
+	font-size:1rem;
+	}
  }
  
 
@@ -60,8 +73,19 @@ h1{
  .grillaRutinas li { 
   text-align: center;
   list-style-type: none; 
-  padding: 5px;
-  width: 100%;
+  padding:25px;
+  @media screen and (max-width: 540px){
+	padding: 5px;
+	}
+
+}
+
+ul li h3
+{
+	 width: 100%; 
+    @media screen and (max-width: 540px){
+	font-size:12px;
+	}
 }
 
 @keyframes horario
@@ -112,6 +136,10 @@ h1{
     font-size: 16px;
     font-weight: 300;
     text-align: center;
+    @media screen and (max-width: 540px){
+	font-size:13px;
+	}
+
 }
  .card{
     width: 330px;
@@ -145,7 +173,7 @@ h1{
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-}
+    }
 
 .containerCard .card a {
     font-weight: 500;
@@ -439,6 +467,9 @@ th
 .centrar--titulos
 {
 	text-align:center;
+	@media screen and (max-width: 540px){
+	font-size:20px;
+	}
 }
 
 /*carousel responsive rutinas*/
